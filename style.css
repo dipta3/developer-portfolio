@@ -11,8 +11,9 @@ h1 {
     color: violet;
 }
 
-section {
+.flexible {
     display: flex;
+    margin: 0px 0px 100px 0px;
 }
 
 .half-width {
@@ -40,6 +41,43 @@ section {
 }
 
 .top-banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
+}
+
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experi {
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(0, 132, 219);
+    border-left: 10px;
+}
+
+.expo {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, violet);
+    border-image-slice: 1;
+}
+
+#web1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(14, 155, 89), rgb(238, 130, 130));
+    border-image-slice: 1;
 }
